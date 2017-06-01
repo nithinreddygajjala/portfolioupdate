@@ -1,0 +1,150 @@
+
+body {
+  background: url(health.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 400;
+}
+hr {
+  border-width: 4px;
+  border-top-color: #BCBBBB;
+}
+img {
+  border-radius: 2px;
+}
+.top-row {
+  cursor: default;
+}
+.text-muted {
+  color: #BCBBBB;
+}
+.text-thin {
+  font-weight: 300;
+  color:white;
+}
+.main-title {
+  font-size: 4em;
+}
+.logo {
+  margin-top: 20px;
+}
+.logo-block {
+  border: 1px solid  #1a1a00;
+  
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  line-height: 108px;
+  text-align: center;
+  
+}
+.foot-title {
+  margin-top: 20px;
+  padding-left: 10px;
+  cursor: default;
+}
+a.link-text {
+  text-decoration: none;
+  color: #BCBBBB;
+}
+h3.footer {
+  color: #747704;
+}
+h3.footer:hover {
+  color: white;
+}
+.modal-content {
+  color: #353535;
+  line-height: 170%;
+}
+.project-separator {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.project-sep-hr {
+  border-top-width: 1px;
+}
+.contact-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ic {
+  color: #535353;
+  width: 2em;
+}
+.ic:hover {
+  text-decoration: none;
+  color: #AFB42B;
+}
+.ic:focus {
+  text-decoration: none;
+}
+.ic:active {
+  color: #747704;
+}
+.img-center {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.img-center:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+.skills {
+    padding: 50px 0
+}
+.skill-item {
+    margin-bottom: 30px
+}
+hr.small {
+    max-width: 100px
+    }
+
+.lead {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.5em;
+    color:white;
+}
+@media (max-width: 991px) {
+  .logo-block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .head-block {
+    text-align: center;
+  }
+  h2.head-block {
+    text-decoration: underline;
+    color:white;
+  }
+  .content-col {
+    margin-bottom: 60px;
+  }
+  .img-center {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  .foot-title {
+    margin-top: 35px;
+    margin-bottom: 45px;
+  }
+  .project-separator {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-img-row {
+    display: none;
+  }
+
+  .foot-title {
+    margin-top: 0px;
+    margin-bottom: 34px;
+  }
+}
